@@ -30,6 +30,8 @@ body {
     background: #4aaaa5;
     padding-left: 10px;
     padding-right: 10px;
+    animation-name: example;
+    animation-duration: 4s;
 }
 
 .navbar-default .navbar-brand {
@@ -49,7 +51,6 @@ body {
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: 700;
-    background: #4aaaa5;
     color: white;
     padding: 0;
     font-size: 32px;
@@ -160,3 +161,8 @@ input::placeholder {
 
 
 /*End Sticky Footer*/
+
+@keyframes example {
+    from {background-color: #4aaaa5;
+    }
+    to {background-color: #bf5b94;}
